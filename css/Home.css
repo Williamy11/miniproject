@@ -72,7 +72,6 @@ body{
     padding: 40px;
 }
 .hq-gallery{
-    margin: 30px;
     display: flex;
     justify-content: space-evenly;
     margin-top: 30px;
