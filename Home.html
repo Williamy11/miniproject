@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/Home.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+    </head>
+    <body>
+        <!-- navigasi/header -->
+        <nav class="navbar">
+            <img src="https://storage.googleapis.com/danacita-website-v3-prd/website_v3/images/Revou-alasan.original.png" class="logo" width="40" height="40" alt="">
+            <div class="navbut"><a href="Home.html">Home</a></div>
+            <div class="navbut"><a href="profile.html">Profile</a></div>
+            <div class="navbut">Logout</div>   
+        </nav>
+        
+        <!-- konten main -->
+        <main>
+            <!-- ses1 -->
+            <section id="hero">
+                <div class="container">
+                    <div class="hero">
+                        <h1 class="hero-title">Hi William, Welcome to My Homepage</h1>
+                        <p class="hero-subtitle">this is our website</p>
+                        <img class="hero-img" src="https://knnit.com/wp-content/uploads/2020/04/It-Professionals.jpg" alt="hero image">
+                    </div>
+                </div>
+                <hr class="hero-line">
+            </section>
+            
+            <!-- ses2 -->
+            <section id="hq">
+                <div class="container">
+                    <div class="head">
+                        <h1 class="hq-title">Our Team</h1>
+                        <div class="hq-gallery">
+                        <div class="city">
+                            <img src="https://www.pngall.com/wp-content/uploads/5/Profile-Avatar-PNG.png" class="hq-img" alt="">
+                            <h3 class="hq-prof"><center>Joko</center></h3>
+                            <p class="hq-prof"><Center>Web designer</Center></p>
+                        </div>
+                        <div class="city">
+                            <img src="https://th.bing.com/th/id/R.122ce1b8c7b3fc204509df58625e9e95?rik=zp4JIjM0d5zXdw&riu=http%3a%2f%2fthe-synister.github.io%2fassets%2fimg%2favatars%2fnhat.png&ehk=fVw0vd%2bUNIeeoYn6ZMfKALpRaSz%2bfbFgHAJM%2fR7DSDw%3d&risl=&pid=ImgRaw&r=0" class="hq-img" alt="">
+                            <h3 class="hq-prof"><center>Rosi</center></h3>
+                            <p class="hq-prof"><Center>User experience (UX) designer</Center></p>
+                        </div>
+                        <div class="city">
+                            <img src="https://www.samconveyancing.co.uk/userfiles/images/M3-QIR6GH.png" class="hq-img" alt="">
+                            <h3 class="hq-prof"><center>Andrian</center></h3>
+                            <p class="hq-prof"><Center>User interface (UI) designer</Center></p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <hr class="hero-line">
+            </section>
+            <!-- ses3 -->
+            <section id="hq">
+                <div class="container">
+                    <div class="head">
+                        <h1 class="hq-title">Our Headquarter</h1>
+                        <div class="hq-gallery">
+                        <div class="city">
+                            <img src="https://th.bing.com/th/id/OIP.l_bC0NBv36BGrd9a4vHVqwHaHa?pid=ImgDet&rs=1" class="hq-img" alt="">
+                            <h3 class="hq-prof"><center>PT. Rise</center></h3>
+                        </div>
+                        <div class="hq">
+                            <div class="hq-text">
+                                <h3 class="hq-prof"><center>Visi</center></h3>
+                                <p class="hq-prof">
+                                    1. Menjadi pemasok minyak goreng sawit kemasan bagi segmen horeca di India <br />
+                                    2. Menjadikan minyak goreng sawit Azaria mampu bersaing dengan produk minyak goreng lain di pasar internasional<br />
+                                    3. Mempertahankan core bussiness PT. Rise dengan memperluas pasar minyak goreng ke mancanegara</p>
+                            </div>
+                            <div class="hq-text">
+                                <h3 class="hq-prof"><center>Misi</center></h3>
+                                <p class="hq-prof">
+                                    1. Membuat produk minyak goreng sawit Azaria yang kualitasnya sesuai dengan kebutuhan konsumen di India<br/>
+                                    2. Menjaga produksi minyak goreng sawit Azaria agar kualitas dan kuantitasnya sesuai dengan tuntutan konsumen<br />
+                                    3. Meningkatkan promosi produk melalui media online maupun dengan media promosi lain</p>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <hr class="hero-line">
+            </section>
+
+            <!-- ses4 -->
+            <section id="msg">
+                <div class="konten">
+                    <div class="form-section">        
+                        <form class="message-form" name="message-form" onsubmit="return validateForm()">
+                            <fieldset>
+                                <legend>Message Us</legend>
+                            <div class="input-group">
+                                <label class="label">Nama</label> : &ThinSpace;
+                                <div class="textbox">
+                                    <input placeholder="Nama" type="text" name="full-name" />
+                                </div>
+                            </div>
+                            <div class="input-group">
+                                <label class="label">Tanggal Lahir</label> : &ThinSpace;
+                                <div class="textbox">
+                                    <input type="date" name="birth-date" />
+                                </div>
+                            </div>
+                            <div class="input-group">
+                                <label class="label">Jenis Kelamin</label> : &ThinSpace;
+                                <div class="textbox">
+                                    <div>
+                                        <input type="radio" id="male" name="gender" value="male" />
+                                        <label for="male">Laki-Laki</label>
+                                    </div>
+                                    <div>
+                                        <input type="radio" id="female" name="gender" value="male" />
+                                        <label for="female">Perempuan</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="input-group">
+                                <label class="label">Pesan</label>  : &ThinSpace;
+                                <div class="textbox">
+                                    <textarea placeholder="Pesan" name="messages"></textarea>
+                                </div>
+                            </div>
+                            <input type="submit" value="Sumbit" />
+                            </fieldset>
+                        </form>
+                        <script>
+                            function validateForm() {
+                                var name = document.forms["message-form"]["full-name"].value;
+                                var birthDate = document.forms["message-form"]["birth-date"].value;
+                                var gender = document.forms["message-form"]["gender"].value;
+                                var messages = document.forms["message-form"]["messages"].value;            
+                                if (name == "" || birthDate == "" || gender == "" || messages ==""){
+                                    alert("Tidak boleh ada yang kosong");
+                                    return;
+                                }
+                                document.getElementById("sender-full-name").innerText = name;
+                                document.getElementById("sender-birth-date").innerText = birthDate;
+                                document.getElementById("sender-gender").innerText = gender;
+                                document.getElementById("sender-messages").innerText = messages;
+                                return false;
+                            }
+                        </script>
+                    </div>
+                    
+                    <div class="output-form">
+                        <h3><center>KOMENTAR</center></h3>
+                        <div class="input-group">
+                            <label class="label">Nama</label>  : &ThinSpace;
+                            <div class="textbox">
+                                <span id="sender-full-name"> </span>
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <label class="label">Tanggal Lahir</label>  : &ThinSpace;
+                            <div class="textbox">
+                                <span id="sender-birth-date"> </span>
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <label class="label">Jenis Kelamin</label>  : &ThinSpace;
+                            <div class="textbox">
+                                <span id="sender-gender"> </span>
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <label class="label">Pesan</label>  : &ThinSpace;
+                            <div class="textbox">
+                                <span id="sender-messages"> </span>
+                            </div>
+                        </div>                       
+                    </div>
+                </div>
+            </section>
+
+        </main>
+    </body>
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <div class="footer">
+                <p class="footer-p"><small>&copy; Copyright 2018, William</small></p>
+            </div>
+        </div>
+    </footer>
+</html>
