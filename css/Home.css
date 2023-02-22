@@ -109,8 +109,10 @@ footer{
 }
 .message-form {
     margin-top: 50px;
-    margin-right: 20px;
-    width: 500px;             
+    margin-right: 20px;     
+}
+.form-section{
+    width: 500px;
 }
 input[type="text"], input[type="date"], textarea {
     width: 90%;
@@ -159,9 +161,8 @@ center{
 }
 .konten{
     display: flex;
-    margin: auto;
-    max-width: 1200px;
     width: 100%;
+    max-width: 1200px;
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin: 10px;
